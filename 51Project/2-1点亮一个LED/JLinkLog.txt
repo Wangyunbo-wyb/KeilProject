@@ -1,0 +1,41 @@
+T95DC 004:783 SEGGER J-Link V5.12h Log File (0001ms, 1394ms total)
+T95DC 004:783 DLL Compiled: Jun 29 2016 17:47:05 (0001ms, 1394ms total)
+T95DC 004:783 Logging started @ 2023-04-28 15:59 (0001ms, 1394ms total)
+T95DC 004:784 JLINK_SetWarnOutHandler(...) (0000ms, 1394ms total)
+T95DC 004:784 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDB  returns O.K. (0269ms, 1663ms total)
+T95DC 005:053 JLINK_SetErrorOutHandler(...) (0000ms, 1663ms total)
+T95DC 005:053 JLINK_ExecCommand("ProjectFile = "C:\Users\zy\Desktop\KeliProject\2-1µãÁÁÒ»¸öLED\JLinkSettings.ini"", ...)  returns 0x00 (0001ms, 1664ms total)
+T95DC 005:054 JLINK_ExecCommand("Device = STM32F101C8", ...)Device "STM32F101C8" selected.  returns 0x00 (0000ms, 1664ms total)
+T95DC 005:054 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 1664ms total)
+T95DC 005:054 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 1664ms total)
+T95DC 005:054 JLINK_GetDLLVersion()  returns 51208 (0000ms, 1664ms total)
+T95DC 005:054 JLINK_GetFirmwareString(...) (0000ms, 1664ms total)
+T95DC 005:054 JLINK_GetDLLVersion()  returns 51208 (0000ms, 1664ms total)
+T95DC 005:054 JLINK_GetCompileDateTime() (0000ms, 1664ms total)
+T95DC 005:054 JLINK_GetFirmwareString(...) (0000ms, 1664ms total)
+T95DC 005:054 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 1664ms total)
+T95DC 005:054 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0002ms, 1666ms total)
+T95DC 005:056 JLINK_SetSpeed(5000) (0001ms, 1667ms total)
+T95DC 005:057 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 1667ms total)
+T95DC 005:057 JLINK_Reset() >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0001ms, 0001ms total)
+               >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x108 TIF> >0x108 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.JLINK_GetId() >0x108 TIF> >0x108 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+  ***** Error: 
+STM32: Connecting to CPU via connect under reset failed.
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+               >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x108 TIF> >0x108 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.  returns 0x00000000 (0731ms, 3649ms total)
+T95DC 007:042 JLINK_GetId() >0x108 TIF> >0x108 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+               >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x108 TIF> >0x108 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.  returns 0x00000000 (0726ms, 4375ms total)
+T95DC 007:769 JLINK_GetFirmwareString(...) (0000ms, 4375ms total)
+T95DC 011:211 JLINK_Close() (0000ms, 4375ms total)
+T95DC 011:211  (0000ms, 4375ms total)
+T95DC 011:211 Closed (0000ms, 4375ms total)

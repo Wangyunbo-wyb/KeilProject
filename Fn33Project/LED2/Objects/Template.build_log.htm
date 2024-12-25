@@ -1,0 +1,354 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Z zy, z, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  D:\gcc-arm-none-eabi-9-2020-q2-update-win32\bin
+C Compiler:      GCC.exe
+Assembler:       AS.exe
+Linker/Locator:  LD.exe
+Library Manager: AR.exe
+Hex Converter:   OBJCOPY.exe
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMCM1.DLL V1.18.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+C:\Users\zy\Desktop\KeliProject\Fn33Project\LED2\Template.uvprojx
+Project File Date:  11/06/2023
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling fm33lg0xx_fl_cmu.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_cmu.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_atim.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_atim.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_can.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_can.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+assembling startup_fm33lg0xx.s...
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s: Assembler messages:
+Warning: Libraries/CMSIS/ARM/startup_fm33lg0xx.s: Warning: end of file not at end of a line; newline inserted
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(2): error: junk at end of line, first unrecognized character is `*'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(5): error: junk at end of line, first unrecognized character is `<'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(6): error: junk at end of line, first unrecognized character is `<'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(7): error: junk at end of line, first unrecognized character is `<'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(9): error: bad instruction `stack_size EQU 0x00000800'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(11): error: bad instruction `area STACK,NOINIT,READWRITE,ALIGN=3'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(12): error: bad instruction `stack_mem SPACE Stack_Size'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(13): error: bad instruction `__initial_sp '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(16): error: junk at end of line, first unrecognized character is `<'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(17): error: junk at end of line, first unrecognized character is `<'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(18): error: junk at end of line, first unrecognized character is `<'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(20): error: bad instruction `heap_size EQU 0x00000800'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(22): error: bad instruction `area HEAP,NOINIT,READWRITE,ALIGN=3'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(23): error: bad instruction `__heap_base'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(24): error: bad instruction `heap_mem SPACE Heap_Size'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(25): error: bad instruction `__heap_limit'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(27): error: bad instruction `preserve8'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(28): error: bad instruction `thumb'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(31): error: bad instruction `vector Table Mapped to Address 0 at Reset'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(33): error: bad instruction `area RESET,DATA,READONLY'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(34): error: bad instruction `export __Vectors'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(35): error: bad instruction `export __Vectors_End'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(36): error: bad instruction `export __Vectors_Size'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(38): error: bad instruction `__vectors DCD __initial_sp'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(38): error: bad instruction `top of Stack'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(39): error: bad instruction `dcd Reset_Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(39): error: bad instruction `reset Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(40): error: bad instruction `dcd NMI_Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(40): error: bad instruction `nmi Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(41): error: bad instruction `dcd HardFault_Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(41): error: bad instruction `hard Fault Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(42): error: bad instruction `dcd 0'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(42): error: bad instruction `reserved'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(43): error: bad instruction `dcd 0'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(43): error: bad instruction `reserved'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(44): error: bad instruction `dcd 0'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(44): error: bad instruction `reserved'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(45): error: bad instruction `dcd 0'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(45): error: bad instruction `reserved'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(46): error: bad instruction `dcd 0'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(46): error: bad instruction `reserved'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(47): error: bad instruction `dcd 0'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(47): error: bad instruction `reserved'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(48): error: bad instruction `dcd 0'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(48): error: bad instruction `reserved'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(49): error: bad instruction `dcd SVC_Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(49): error: bad instruction `svcall Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(50): error: bad instruction `dcd 0'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(50): error: bad instruction `reserved'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(51): error: bad instruction `dcd 0'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(51): error: bad instruction `reserved'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(52): error: bad instruction `dcd PendSV_Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(52): error: bad instruction `pendsv Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(53): error: bad instruction `dcd SysTick_Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(53): error: bad instruction `systick Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(55): error: bad instruction `external Interrupts'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(56): error: bad instruction `dcd WDT_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(56): error: bad instruction `wwdt '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(57): error: bad instruction `dcd SVD_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(57): error: bad instruction `svd '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(58): error: bad instruction `dcd RTC_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(58): error: bad instruction `rtc '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(59): error: bad instruction `dcd FLASH_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(59): error: bad instruction `flash '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(60): error: bad instruction `dcd FDET_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(60): error: bad instruction `lfdet '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(61): error: bad instruction `dcd ADC_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(61): error: ARM register expected -- `adc '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(62): error: bad instruction `dcd DAC_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(62): error: bad instruction `dac'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(63): error: bad instruction `dcd SPI0_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(63): error: bad instruction `spi0 '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(64): error: bad instruction `dcd SPI1_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(64): error: bad instruction `spi1'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(65): error: bad instruction `dcd SPI2_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(65): error: bad instruction `spi2 '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(66): error: bad instruction `dcd UART0_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(66): error: bad instruction `uart0 '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(67): error: bad instruction `dcd UART1_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(67): error: bad instruction `uart1 '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(68): error: bad instruction `dcd UART3_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(68): error: bad instruction `uart3 '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(69): error: bad instruction `dcd UART4_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(69): error: bad instruction `uart4 '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(70): error: bad instruction `dcd UART5_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(70): error: bad instruction `uart5 '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(71): error: bad instruction `dcd U7816_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(71): error: bad instruction `u7816 '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(72): error: bad instruction `dcd LPUARTx_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(72): error: bad instruction `lpuart '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(73): error: bad instruction `dcd I2C_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(73): error: bad instruction `i2c '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(74): error: bad instruction `dcd CCL_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(74): error: bad instruction `ccl '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(75): error: bad instruction `dcd AES_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(75): error: bad instruction `aes '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(76): error: bad instruction `dcd LPTIM_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(76): error: bad instruction `lptim '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(77): error: bad instruction `dcd DMA_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(77): error: bad instruction `dma '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(78): error: bad instruction `dcd WKUPx_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(78): error: bad instruction `wkup '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(79): error: bad instruction `dcd LUT_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(79): error: bad instruction `lut '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(80): error: bad instruction `dcd BSTIM_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(80): error: bad instruction `bstim'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(81): error: bad instruction `dcd COMPx_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(81): error: bad instruction `compx'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(82): error: bad instruction `dcd GPTIM0_1_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(82): error: bad instruction `gptim0_1 '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(83): error: bad instruction `dcd GPTIM2_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(83): error: bad instruction `gptim2 '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(84): error: bad instruction `dcd ATIM_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(84): error: bad instruction `atim '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(85): error: bad instruction `dcd VREF_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(85): error: bad instruction `vref '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(86): error: bad instruction `dcd GPIO_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(86): error: bad instruction `gpio'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(87): error: bad instruction `dcd CAN_IRQHandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(87): error: bad instruction `can'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(88): error: bad instruction `__vectors_end'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(90): error: bad instruction `__vectors_size EQU __Vectors_End-__Vectors'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(92): error: bad instruction `area |.text|,CODE,READONLY'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(95): error: bad instruction `reset Handler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(97): error: bad instruction `reset_handler PROC'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(98): error: bad instruction `export Reset_Handler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(99): error: bad instruction `import SystemInit'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(100): error: bad instruction `import __main'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(105): error: bad instruction `endp'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(108): error: bad instruction `dummy Exception Handlers(infinite loops which can be modified)'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(110): error: bad instruction `nmi_handler PROC'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(111): error: bad instruction `export NMI_Handler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(113): error: bad instruction `endp'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(114): warning: stray `\'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(114): error: bad instruction `hardfault_handler\'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(115): error: bad instruction `proc'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(116): error: bad instruction `export HardFault_Handler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(118): error: bad instruction `endp'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(119): error: bad instruction `svc_handler PROC'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(120): error: bad instruction `export SVC_Handler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(122): error: bad instruction `endp'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(123): error: bad instruction `pendsv_handler PROC'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(124): error: bad instruction `export PendSV_Handler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(126): error: bad instruction `endp'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(127): error: bad instruction `systick_handler PROC'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(128): error: bad instruction `export SysTick_Handler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(130): error: bad instruction `endp'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(132): error: bad instruction `default_handler PROC'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(133): error: bad instruction `export CAN_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(134): error: bad instruction `export GPIO_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(135): error: bad instruction `export VREF_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(136): error: bad instruction `export ATIM_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(137): error: bad instruction `export GPTIM2_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(138): error: bad instruction `export GPTIM0_1_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(139): error: bad instruction `export COMPx_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(140): error: bad instruction `export BSTIM_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(141): error: bad instruction `export LUT_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(142): error: bad instruction `export WKUPx_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(143): error: bad instruction `export DMA_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(144): error: bad instruction `export LPTIM_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(145): error: bad instruction `export AES_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(146): error: bad instruction `export CCL_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(147): error: bad instruction `export I2C_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(148): error: bad instruction `export LPUARTx_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(149): error: bad instruction `export U7816_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(150): error: bad instruction `export UART5_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(151): error: bad instruction `export UART4_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(152): error: bad instruction `export UART3_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(153): error: bad instruction `export UART1_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(154): error: bad instruction `export UART0_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(155): error: bad instruction `export SPI2_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(156): error: bad instruction `export SPI1_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(157): error: bad instruction `export SPI0_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(158): error: bad instruction `export DAC_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(159): error: bad instruction `export ADC_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(160): error: bad instruction `export FDET_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(161): error: bad instruction `export FLASH_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(162): error: bad instruction `export RTC_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(163): error: bad instruction `export SVD_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(164): error: bad instruction `export WDT_IRQHandler [WEAK]'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(166): error: bad instruction `can_irqhandler '
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(167): error: bad instruction `gpio_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(168): error: bad instruction `vref_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(169): error: bad instruction `atim_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(170): error: bad instruction `gptim2_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(171): error: bad instruction `gptim0_1_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(172): error: bad instruction `compx_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(173): error: bad instruction `bstim_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(174): error: bad instruction `lut_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(175): error: bad instruction `wkupx_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(176): error: bad instruction `dma_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(177): error: bad instruction `lptim_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(178): error: bad instruction `aes_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(179): error: bad instruction `ccl_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(180): error: bad instruction `i2c_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(181): error: bad instruction `lpuartx_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(182): error: bad instruction `u7816_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(183): error: bad instruction `uart5_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(184): error: bad instruction `uart4_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(185): error: bad instruction `uart3_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(186): error: bad instruction `uart1_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(187): error: bad instruction `uart0_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(188): error: bad instruction `spi2_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(189): error: bad instruction `spi1_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(190): error: bad instruction `spi0_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(191): error: bad instruction `dac_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(192): error: bad instruction `adc_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(193): error: bad instruction `fdet_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(194): error: bad instruction `flash_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(195): error: bad instruction `rtc_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(196): error: bad instruction `svd_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(197): error: bad instruction `wdt_irqhandler'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(200): error: bad instruction `endp'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(203): error: bad instruction `align'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(206): error: bad instruction `user Initial Stack&Heap'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(208): error: bad instruction `__microlib'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(210): error: bad instruction `export __initial_sp'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(211): error: bad instruction `export __heap_base'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(212): error: bad instruction `export __heap_limit'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(214): error: bad instruction `else'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(216): error: bad instruction `import __use_two_region_memory'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(217): error: bad instruction `export __user_initial_stackheap'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(218): error: bad instruction `__user_initial_stackheap'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(221): error: syntax error -- `ldr R1,=(Stack_Mem+Stack_Size)'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(222): error: syntax error -- `ldr R2,=(Heap_Mem+Heap_Size)'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(226): error: bad instruction `align'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(228): error: bad instruction `endif'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(231): error: bad instruction `end'
+Libraries/CMSIS/ARM/startup_fm33lg0xx.s(233): error: junk at end of line, first unrecognized character is `*'
+compiling fm33lg0xx_fl_comp.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_comp.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_aes.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_aes.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl.c(23): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling system_fm33lg0xx.c...
+Libraries/CMSIS/system_fm33lg0xx.c(38): error: fatal error: system_fm33lg0xx.h: No such file or directory
+compiling fm33lg0xx_fl_bstim32.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_bstim32.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_bstim16.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_bstim16.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_crc.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_crc.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_adc.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_adc.c(24): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_dac.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_dac.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_divas.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_divas.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_dma.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_dma.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_exti.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_exti.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_flash.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_flash.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_gpio.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_gpio.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_gptim.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_gptim.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_iwdt.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_iwdt.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_i2c.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_i2c.c(23): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_lcd.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_lcd.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_lptim16.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_lptim16.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_lptim32.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_lptim32.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_lpuart.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_lpuart.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_opa.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_opa.c(23): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_pgl.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_pgl.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_pmu.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_pmu.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_rng.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_rng.c(23): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_rtca.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_rtca.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_rtcb.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_rtcb.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_spi.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_spi.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_svd.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_svd.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_u7816.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_u7816.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_uart.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_uart.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_vao.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_vao.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_vrefp.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_vrefp.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling fm33lg0xx_fl_wwdt.c...
+Libraries/FM33LG0xx_FL_Driver/Src/fm33lg0xx_fl_wwdt.c(22): error: fatal error: fm33lg0xx_fl.h: No such file or directory
+compiling main.c...
+User/main.c(1): error: fatal error: fm33lg0xx_fl_gpio.h: No such file or directory
+".\Objects\Template.elf" - 266 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                
+                Keil.FM33LG0XX_DFP.2.0.2
+                FMSH ARM Cortex-M0 Device Family Pack
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

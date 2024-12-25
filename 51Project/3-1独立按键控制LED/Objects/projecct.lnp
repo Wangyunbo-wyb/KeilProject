@@ -1,0 +1,3 @@
+".\Objects\main.obj" 
+TO ".\Objects\projecct" 
+PRINT(".\Listings\projecct.m51") RAMSIZE(256) 

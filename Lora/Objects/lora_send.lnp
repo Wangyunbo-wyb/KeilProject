@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\delay.o"
+".\objects\sys.o"
+".\objects\timer.o"
+".\objects\lora_app.o"
+".\objects\oled.o"
+".\objects\usart1.o"
+".\objects\usart3.o"
+".\objects\28byj_48.o"
+".\objects\misc.o"
+".\objects\stm32f10x_exti.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_usart.o"
+".\objects\startup_stm32f10x_hd.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\lora_send.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\lora_send.map" -o .\Objects\lora_send.axf
