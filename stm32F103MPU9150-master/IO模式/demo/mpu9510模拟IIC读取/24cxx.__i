@@ -1,0 +1,1 @@
+-c --device DARMSTM -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib\inc -I.\System -I.\USR -I "C:\Keil3\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "24cxx.o" --omf_browse "24cxx.crf" --depend "24cxx.d" "USR\24Cxx.c"

@@ -1,0 +1,68 @@
+/**
+  ****************************************************************************************************
+  * @file    main.c
+  * @author  FMSH Application Team
+  * @brief   Header file of FL Module
+  ****************************************************************************************************
+  * @attention
+  *
+  * Copyright (c) [2021] [Fudan Microelectronics]
+  * THIS SOFTWARE is licensed under Mulan PSL v2.
+  * can use this software according to the terms and conditions of the Mulan PSL v2.
+  * You may obtain a copy of Mulan PSL v2 at:
+  *          http://license.coscl.org.cn/MulanPSL2
+  * THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,
+  * EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
+  * MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+  * See the Mulan PSL v2 for more details.
+  *
+  ****************************************************************************************************
+  */
+
+#include "main.h"
+#include "led.h"
+
+
+
+/**
+* Chip Series: FM33LG0xx;
+* FL Version: v2.2;
+* Project Name: IWDT;
+* Project Version: v2.2.1.0;
+* Create Date: 2022-03-04;
+*/
+
+void IWDT_Init(void)
+{
+    FL_IWDT_InitTypeDef    IWDT_InitStruct;
+
+    IWDT_InitStruct.iwdtWindows = 0;
+    IWDT_InitStruct.overflowPeriod = FL_IWDT_PERIOD_2000MS;
+
+    FL_IWDT_Init(IWDT, &IWDT_InitStruct);
+}
+
+int main(void)
+{
+    /* Configure the system clock */
+    MF_Clock_Init();
+
+    /* Initialize FL Driver Library */
+    FL_Init();
+
+    /* Initialize all configured peripherals */
+    MF_Config_Init();
+
+    /* Code after peripherals initialization */
+    LedToggle(5);
+    FL_DelayMs(3000);//32768 起振时间典型时间1S，最大3S
+    FL_CDIF_EnableVAOToCPU(CDIF);//32768信号从VAO传输到CPU
+    IWDT_Init();
+    while(1)
+    {
+        FL_IWDT_ReloadCounter(IWDT);
+    }
+
+}
+
+
